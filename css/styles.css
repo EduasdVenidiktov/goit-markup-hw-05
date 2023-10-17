@@ -740,7 +740,6 @@ display: block;
     line-height: 1.17;
     letter-spacing: 0.04em;
     max-width: 338px;
-    display: flex;
     align-items: center;
     line-height: 1.17;
 }
@@ -756,7 +755,6 @@ display: block;
     fill: transparent;
     margin-right: 8px;
 }
-
 .check-icon{
     color: #4D5AE5;
     text-decoration-line: underline;
