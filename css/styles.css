@@ -525,6 +525,8 @@ border: 1px solid var#FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background: #2E2F42;
 margin-right: 24px;
+padding-left: 16px;
+color: #FFF;
 
 }
 
@@ -688,12 +690,6 @@ display: block;
     fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-/* .modal-icon::after{
-    width: 1.25px;
-    height: 18px;
-    background: #2E2F42;
-    border: 1 solid #2E2F42;
-} */ 
 
 
 .modal-text{
@@ -753,7 +749,7 @@ display: block;
 .check-text a{
     color: #4D5AE5;
     text-decoration-line: underline;
-    
+    margin-left: 2px;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -774,9 +770,6 @@ display: block;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .check-icon{
-    border:#8E8F99;
-} */
 .check-input:checked + .check-text span {
     background-color: #404BBF;
     border: none;
