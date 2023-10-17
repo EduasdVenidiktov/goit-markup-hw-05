@@ -617,23 +617,16 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 .modal-btn:hover {
     background-color: #404BBF;
     border: none; 
+    fill: #ffffff;
 }
-
 .modal-btn:focus {
     background-color: #404bbf; 
     border: none; 
+    fill: #ffffff;
 }
-
 .modal-btn-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn-icon:hover{
-    fill: #ffffff;
-}
-.modal-btn-icon:focus{
-    fill: #ffffff;
-}
-
 
 .modal-title{
 color: #2E2F42;
@@ -696,9 +689,9 @@ display: block;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     left: 16px;
     fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 
@@ -757,14 +750,14 @@ display: block;
     line-height: 1.17;
 }
 .check-span{
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     width: 16px;
     height: 16px;
     border-radius: 2px; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex; 
-    align-items: center; 
-    justify-content: center; 
     fill: transparent;
     margin-right: 8px;
 }
